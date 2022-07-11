@@ -1,0 +1,27 @@
+{
+    "name": "zen-studio/line-formatter",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "hyperf",
+        "logger",
+        "Over 9 levels deep"
+    ],
+    "description": "解决Hyperf框架Log类出现Over 9 levels deep, aborting normalization的问题",
+    "autoload": {
+        "psr-4": {
+            "ZenStudio\\LineFormatter\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "hyperf/logger": "^2.2"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "hyperf": {
+            "config": "ZenStudio\\LineFormatter\\ConfigProvider"
+        }
+    }
+}
